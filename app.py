@@ -200,7 +200,7 @@ The model weighs all 11 DFT features together:
 🟢 Geometry (coordination, planarity)
 🔴 Quantum effects (magic numbers, spin)
 
-This is what makes it a genuine ML problem — not a simple threshold rule.
+# This is what makes it a genuine ML problem — not a simple threshold rule.
         """)
         st.markdown("<div class='section-title'>Dataset Split</div>", unsafe_allow_html=True)
         sc = df["stable"].sum()
