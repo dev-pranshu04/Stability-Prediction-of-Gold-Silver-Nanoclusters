@@ -431,13 +431,13 @@ elif page == "📈 Model Metrics":
 
     st.markdown("<br>", unsafe_allow_html=True)
 
-    # Why not perfect — explanation
-    st.markdown("""<div class='insight-box'>
-    ✅ <b>Why these scores are realistic and trustworthy:</b> The model achieves ~80–90% accuracy
-    rather than 100%, because stability depends on the <i>combination</i> of 11 features with
-    ~8% inherent uncertainty from DFT functional choices and basis set effects. A perfect score
-    on a 200-sample dataset would indicate data leakage, not genuine learning.
-    </div>""", unsafe_allow_html=True)
+    # # Why not perfect — explanation
+    # st.markdown("""<div class='insight-box'>
+    # ✅ <b>Why these scores are realistic and trustworthy:</b> The model achieves ~80–90% accuracy
+    # rather than 100%, because stability depends on the <i>combination</i> of 11 features with
+    # ~8% inherent uncertainty from DFT functional choices and basis set effects. A perfect score
+    # on a 200-sample dataset would indicate data leakage, not genuine learning.
+    # </div>""", unsafe_allow_html=True)
 
     row1_c1,row1_c2 = st.columns(2)
     with row1_c1:
